@@ -1,4 +1,4 @@
-from createTables import conexion
+from CHIVAS_conexion import conexion
 import sqlite3
 
 def eliminar_tareas():

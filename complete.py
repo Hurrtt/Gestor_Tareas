@@ -1,6 +1,5 @@
-from createTables import conexion
+from CHIVAS_conexion import conexion
 import sqlite3
-
 def complete():
     try:
         connection = conexion()

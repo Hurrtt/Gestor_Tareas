@@ -1,3 +1,6 @@
+from CHIVAS_conexion import conexion
+import sqlite3
+
 def tareas_pendientes():
     try:
         connection = conexion()

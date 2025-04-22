@@ -1,3 +1,6 @@
+from CHIVAS_conexion import conexion
+import sqlite3
+
 def agregar_tarea():
     try:
         connection = conexion()

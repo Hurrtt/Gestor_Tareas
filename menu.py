@@ -1,7 +1,7 @@
-from CHIVAS_agregar import agregar_tarea
 from consulta import agregar_tarea
-
-
+from CHIVAS_listar import tareas_pendientes
+from complete import complete
+from eliminar import eliminar_tareas
 def menu():
     print("Ingrese una opcion: \n1-Agregar tarea \n2-Ver tareas pendientes \n3-Marcar tarea completada \n4-Eliminar tarea \n5-Salir")
     opc = input()
